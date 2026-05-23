@@ -150,16 +150,6 @@ scripts/
 metadata/
 metrics/
 feature_store/
-analytics/*
-components/*
-config/*
-data/*
-ml/*
-models/*
-notebooks/*
-pages/*
-tests/*
-utils/*
 # Ignore all Python files
 *.py
 !app.py
