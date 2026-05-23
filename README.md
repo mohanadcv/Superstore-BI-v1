@@ -318,4 +318,3 @@ Looking for a custom analytics solution?
 <p align="center">
   <sub>Built with precision · Designed for scale · Ready for clients</sub>
 </p>
-
