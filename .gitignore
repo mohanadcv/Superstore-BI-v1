@@ -1,0 +1,170 @@
+# ==========================================================
+# PUPLIC VERSION — PUBLIC / SAFE REPOSITORY
+# Only expose the Streamlit demo app
+# ==========================================================
+
+# ==========================================================
+# Python
+# ==========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build
+build/
+dist/
+downloads/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================================
+# Virtual Environments
+# ==========================================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================================
+# Jupyter
+# ==========================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ==========================================================
+# IDEs / Editors
+# ==========================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ==========================================================
+# Logs
+# ==========================================================
+*.log
+logs/
+
+# ==========================================================
+# Environment Variables / Secrets
+# ==========================================================
+.env
+.env.local
+.secrets/
+.streamlit/secrets.toml
+
+# ==========================================================
+# Temp / Cache
+# ==========================================================
+.cache/
+*.tmp
+*.bak
+
+# ==========================================================
+# Testing / Coverage
+# ==========================================================
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+
+# ==========================================================
+# Static Analysis
+# ==========================================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ==========================================================
+# ML / Experiment Tracking
+# ==========================================================
+mlruns/
+mlartifacts/
+wandb/
+tensorboard/
+lightning_logs/
+
+# ==========================================================
+# Data (PRIVATE)
+# ==========================================================
+dataset/
+datasets/
+raw_data/
+processed_data/
+exports/
+csv/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.pkl
+
+# ==========================================================
+# Models (PRIVATE IP)
+# ==========================================================
+checkpoints/
+artifacts/
+weights/
+trained_models/
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# ==========================================================
+# Internal Source Code (PRIVATE)
+# Keep ONLY app.py public
+# ==========================================================
+core/
+pipeline/
+training/
+trainer/
+services/
+experiments/
+research/
+scripts/
+metadata/
+metrics/
+feature_store/
+analytics/*
+components/*
+config/*
+data/*
+ml/*
+models/*
+notebooks/*
+pages/*
+tests/*
+utils/*
+# Ignore all Python files
+*.py
+!app.py
+*ini
+
+.streamlit/
+.devcontainer/
+
