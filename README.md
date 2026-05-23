@@ -270,25 +270,19 @@ The focus was not only on analytics, but on building a system that feels **pract
 
 The platform was developed using a modern data and analytics ecosystem.
 
-### Frontend & Visualization
-- Streamlit
-- Plotly
-- Interactive dashboards
-
-### Data Processing & Analytics
-- Python
-- Pandas
-- NumPy
-
-### Machine Learning & Forecasting
-- Predictive modeling
-- ML/Time-series forecasting
-- Business analytics workflows
-
-### Deployment
-- Streamlit Cloud Community
+<p align="center">
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+</p>
 
 ---
+
 ### ✍️ Author
 
 **Mohanad Ahmed (Mo. A)**
