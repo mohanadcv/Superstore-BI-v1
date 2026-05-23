@@ -150,16 +150,49 @@ scripts/
 metadata/
 metrics/
 feature_store/
+# ==========================================================
+# IGNORE ALL internal code — KEEP ONLY FOLDER STRUCTURE
+# ==========================================================
+
+# Analytics module
 analytics/*
+!analytics/__init__.py
+
+# Components module
 components/*
+!components/__init__.py
+
+# Config module (hide all settings, keep empty)
 config/*
+!config/__init__.py
+
+# Data module (hide loaders, processors, keep structure)
 data/*
+!data/__init__.py
+
+# ML module (hide all models, training, keep empty)
 ml/*
+!ml/__init__.py
+
+# Models (trained artifacts — completely private)
 models/*
+!models/__init__.py
+
+# Notebooks (entirely hidden)
 notebooks/*
+!notebooks/__init__.py
+
+# Pages (hide all pages code)
 pages/*
+!pages/__init__.py
+
+# Tests (hide all test files)
 tests/*
+!tests/__init__.py
+
+# Utils (hide helpers, keep empty)
 utils/*
+!utils/__init__.py
 # Ignore all Python files
 *.py
 !app.py
